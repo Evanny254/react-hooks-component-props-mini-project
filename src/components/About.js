@@ -1,12 +1,12 @@
+import React from 'react';
+
 function About(props) {
- 
-    
   return (
-   <aside>
+    <aside>
     <img src={props.image || "https://via.placeholder.com/215" } alt="blog logo"></img>
-    <p>{props.aboutText}</p>
-   </aside>
-  )
+      <p>{props.about}</p>
+    </aside>
+  );
 }
-  
-  export default About;
+
+export default About;
